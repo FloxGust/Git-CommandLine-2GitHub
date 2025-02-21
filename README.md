@@ -1,17 +1,25 @@
 # Command-GitHub https://docs.google.com/document/d/1MKowyQ97pAW7vEjxutmbXm-daT2ITQxcRjKgXPvyztQ/edit?usp=sharing
 
 MakeDirectory or folder
-```mkdir my_project```
+``` bash 
+mkdir my_project
+```
 
 Go to Directory 
-```cd my_project```
+```
+cd my_project
+```
 
 Backward : 
-```cd .. ```
+```
+cd ..
+```
 
-#Check-git
+# Check-git
 จัดการการตั้งค่าต่างๆ ของ Git
-```git config -l ```
+```
+git config -l 
+```
 ``` git config  --list ```
 
 ``` git config --global --list  ``` 	           # ดูเฉพาะการตั้งค่า global
@@ -34,7 +42,7 @@ Backward :
 สร้างไฟล์ file.txt โดยมีคำว่า Hello World
 echo "Hello World" > file.txt
 
-#Git-Push
+# Git-Push
 
 ```git init```
 
@@ -50,22 +58,22 @@ echo "Hello World" > file.txt
 
 ```git push -u origin main```
 
-Remove git init 
+# Remove git init 
 ```rm -rf .git```
 
-Git-pull
+# Git-pull
 
 ```git pull <remote> <branch>```
 ```git pull origin main / git pull```
 
 
-Git Clone คัดลอก Repository ที่มีอยู่
+# Git Clone คัดลอก Repository ที่มีอยู่
 
 ```git clone <url>```
 ```git clone https://github.com/Yourgithubname/repository.git```
 
 
-#Resources
+# Resources
 ODDS BU Document
 
 https://emphasized-devourer-629.notion.site/ODDS-x-BU-Document-0b362875b56f4b9aa202bfd05c675e56
