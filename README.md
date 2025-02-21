@@ -1,7 +1,8 @@
-# Command-GitHub https://docs.google.com/document/d/1MKowyQ97pAW7vEjxutmbXm-daT2ITQxcRjKgXPvyztQ/edit?usp=sharing
+> Command-Line Git 
+https://docs.google.com/document/d/1MKowyQ97pAW7vEjxutmbXm-daT2ITQxcRjKgXPvyztQ/edit?usp=sharing
 
 MakeDirectory or folder
-``` bash 
+```
 mkdir my_project
 ```
 
@@ -20,57 +21,113 @@ cd ..
 ```
 git config -l 
 ```
-``` git config  --list ```
 
-``` git config --global --list  ``` 	           # ดูเฉพาะการตั้งค่า global
+``` 
+git config  --list
+```
 
-``` git config --local --list ```  	           # ดูเฉพาะการตั้งค่า local ใน repository ปัจจุบัน
+``` 
+git config --global --list
+```
+ # ดูเฉพาะการตั้งค่า global
 
-``` git status ```	 	                        –ตรวจสอบสถานะไฟล์ เพื่อดูว่าไฟล์ใดบ้างที่ถูกเปลี่ยนแปลง
+```
+git config --local --list 
+```
+# ดูเฉพาะการตั้งค่า local ใน repository ปัจจุบัน
 
-```git log``` 				                        –ดูประวัติการเปลี่ยนแปลง
+```
+git status 
+```	 	                        
+ตรวจสอบสถานะไฟล์ เพื่อดูว่าไฟล์ใดบ้างที่ถูกเปลี่ยนแปลง
 
-```la``` 
-```ls -la```                       	    –แสดงไฟล์ทั้งหมดใน directory 
+```
+git log
+``` 				                        
+ดูประวัติการเปลี่ยนแปลง
+
+```
+la
+```
+
+```
+ls -la
+```
+แสดงไฟล์ทั้งหมดใน directory 
 
 #Set config
 
-```git config --global user.name "Your Username"```
+```
+git config --global user.name "Your Username"
+```
 
-```git config --global user.email "your.email@example.com"```
+```
+git config --global user.email "your.email@example.com"
+```
 
 สร้างไฟล์ file.txt โดยมีคำว่า Hello World
+``` 
 echo "Hello World" > file.txt
+```
 
 # Git-Push
 
-```git init```
+```
+git init
+```
 
-```git add README.md ```
-```git add . ``` (add all file) 
-```git add file.txt```
+```
+git add README.md 
+```
 
-```git commit -m "First commit"```
+```
+git add . 
+```
+(add all file)
 
-```git branch -M main```
+```
+git add file.txt
+```
 
-```git remote add origin https://github.com/Yourgithubname/repository.git```
+```
+git commit -m "First commit"
+```
 
-```git push -u origin main```
+```
+git branch -M main
+```
+
+```
+git remote add origin https://github.com/Yourgithubname/repository.git
+```
+
+```
+git push -u origin main
+```
 
 # Remove git init 
-```rm -rf .git```
+```
+rm -rf .git
+```
 
 # Git-pull
 
-```git pull <remote> <branch>```
-```git pull origin main / git pull```
+```
+git pull <remote> <branch>
+```
+```
+git pull origin main / git pull
+```
 
 
 # Git Clone คัดลอก Repository ที่มีอยู่
 
-```git clone <url>```
-```git clone https://github.com/Yourgithubname/repository.git```
+```
+git clone <url>
+```
+```
+git clone https://github.com/Yourgithubname/repository.git
+```
 
 
 # Resources
