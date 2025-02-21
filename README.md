@@ -1,61 +1,71 @@
 # Command-GitHub https://docs.google.com/document/d/1MKowyQ97pAW7vEjxutmbXm-daT2ITQxcRjKgXPvyztQ/edit?usp=sharing
 
-MakeDirectory : mkdir my_project
+MakeDirectory or folder
+```mkdir my_project```
 
-Go to Directory : cd my_project
+Go to Directory 
+```cd my_project```
 
-Backward : cd ..
+Backward : 
+```cd .. ```
 
-Check-git
+#Check-git
+จัดการการตั้งค่าต่างๆ ของ Git
+```git config -l ```
+``` git config  --list ```
 
-git config -l / git config  --list 	    –จัดการการตั้งค่าต่างๆ ของ Git
+``` git config --global --list  ``` 	           # ดูเฉพาะการตั้งค่า global
 
-git config --global --list  	           # ดูเฉพาะการตั้งค่า global
+``` git config --local --list ```  	           # ดูเฉพาะการตั้งค่า local ใน repository ปัจจุบัน
 
-git config --local --list   	           # ดูเฉพาะการตั้งค่า local ใน repository ปัจจุบัน
+``` git status ```	 	                        –ตรวจสอบสถานะไฟล์ เพื่อดูว่าไฟล์ใดบ้างที่ถูกเปลี่ยนแปลง
 
-git status		 	                        –ตรวจสอบสถานะไฟล์ เพื่อดูว่าไฟล์ใดบ้างที่ถูกเปลี่ยนแปลง
+```git log``` 				                        –ดูประวัติการเปลี่ยนแปลง
 
-git log 				                        –ดูประวัติการเปลี่ยนแปลง
+```la``` 
+```ls -la```                       	    –แสดงไฟล์ทั้งหมดใน directory 
 
-la  / ls -la                       	    –แสดงไฟล์ทั้งหมดใน directory 
+#Set config
 
-Set
+```git config --global user.name "Your Username"```
 
-git config --global user.name "Your Username"
-
-git config --global user.email "your.email@example.com"
+```git config --global user.email "your.email@example.com"```
 
 สร้างไฟล์ file.txt โดยมีคำว่า Hello World
 echo "Hello World" > file.txt
 
-Git-Push
+#Git-Push
 
-git init
+```git init```
 
-git add README.md  / git add . (add all file) / git add file.txt
+```git add README.md ```
+```git add . ``` (add all file) 
+```git add file.txt```
 
-git commit -m "First commit"
+```git commit -m "First commit"```
 
-git branch -M main
+```git branch -M main```
 
-git remote add origin https://github.com/FloxGust/Command-GitHub.git
+```git remote add origin https://github.com/Yourgithubname/repository.git```
 
-git push -u origin main
+```git push -u origin main```
 
-Remove git init : rm -rf .git
+Remove git init 
+```rm -rf .git```
 
 Git-pull
 
-git pull <remote> <branch> ==  git pull origin main / git pull
+```git pull <remote> <branch>```
+```git pull origin main / git pull```
 
 
 Git Clone คัดลอก Repository ที่มีอยู่
 
-git clone <url> == git clone https://github.com/FloxGust/Command-GitHub.git
+```git clone <url>```
+```git clone https://github.com/Yourgithubname/repository.git```
 
 
-
+#Resources
 ODDS BU Document
 
 https://emphasized-devourer-629.notion.site/ODDS-x-BU-Document-0b362875b56f4b9aa202bfd05c675e56
