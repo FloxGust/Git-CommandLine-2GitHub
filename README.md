@@ -1,4 +1,4 @@
-> Command-Line Git 
+# Command-Line Git 
 
 
 MakeDirectory or folder
@@ -16,7 +16,7 @@ Backward :
 cd ..
 ```
 
-# Check-git
+## Check-git
 จัดการการตั้งค่าต่างๆ ของ Git
 ```
 git config -l 
@@ -29,12 +29,12 @@ git config  --list
 ``` 
 git config --global --list
 ```
- # ดูเฉพาะการตั้งค่า global
+## ดูเฉพาะการตั้งค่า global
 
 ```
 git config --local --list 
 ```
-# ดูเฉพาะการตั้งค่า local ใน repository ปัจจุบัน
+## ดูเฉพาะการตั้งค่า local ใน repository ปัจจุบัน
 
 ```
 git status 
@@ -55,7 +55,7 @@ ls -la
 ```
 แสดงไฟล์ทั้งหมดใน directory 
 
-# Configure
+## Configure
 
 ```
 git config --global user.name "Your Username"
@@ -70,7 +70,7 @@ git config --global user.email "your.email@example.com"
 echo "Hello World" > file.txt
 ```
 
-# Git-Push
+## Git-Push
 
 ```
 git init
@@ -79,12 +79,12 @@ git init
 ```
 git add README.md 
 ```
-
+Add all file
 ```
 git add . 
 ```
-(add all file)
 
+Add file
 ```
 git add file.txt
 ```
@@ -105,12 +105,12 @@ git remote add origin https://github.com/Yourgithubname/repository.git
 git push -u origin main
 ```
 
-# Remove git init 
+## Remove git init 
 ```
 rm -rf .git
 ```
 
-# Git-pull
+## Git-pull
 
 ```
 git pull <remote> <branch>
@@ -120,7 +120,7 @@ git pull origin main / git pull
 ```
 
 
-# Git Clone คัดลอก Repository ที่มีอยู่
+## Git Clone คัดลอก Repository ที่มีอยู่
 
 ```
 git clone <url>
