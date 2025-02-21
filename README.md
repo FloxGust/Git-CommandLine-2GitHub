@@ -1,5 +1,5 @@
 > Command-Line Git 
-https://docs.google.com/document/d/1MKowyQ97pAW7vEjxutmbXm-daT2ITQxcRjKgXPvyztQ/edit?usp=sharing
+
 
 MakeDirectory or folder
 ```
@@ -55,7 +55,7 @@ ls -la
 ```
 แสดงไฟล์ทั้งหมดใน directory 
 
-#Set config
+# Configure
 
 ```
 git config --global user.name "Your Username"
